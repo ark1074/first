@@ -42,7 +42,7 @@ public class CDPlayerTest {
     @Test
     public void play(){
         mediaPlayer.play();
-        assertEquals("Playing Peppers title by The Beatles\n",log.getLog());
+        assertEquals("Playing Peppers title by The Beatles\n",log.getLog()); //uses log to check
 
 
     }
